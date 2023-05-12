@@ -13,17 +13,8 @@ import Projects from "../../components/Projects";
 import ContactMe from "../../components/ContactMe";
 
 import fetchPageInfo from "../../utils/fetchPageInfo";
-import urlFor from "../../utils/urlFor";
+import urlFor from "../../utils/urlFor"; 
 
-// type Props = {
-//   pageInfo: PageInfo;
-//   experiences: Experience[];
-//   socials: Social[];
-//   skills: Skill[];
-//   projects: Project[];
-// };
-
-const inter = Inter({ subsets: ["latin"] });
 
 function Home() {
   const { data, error } = fetchPageInfo();
@@ -39,7 +30,7 @@ function Home() {
         overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#4db9ad]/70 "
         >
           <Head>
-            <title>Edson's Portfolio</title>
+            <title>Edson Portfolio</title>
           </Head>
 
           <Header />
@@ -92,15 +83,5 @@ function Home() {
   );
 }
 
-// export async function getStaticProps() {
-//   const pageInfo: PageInfo = await fetchPageInfo();
-
-//   return {
-//     props: {
-//       pageInfo,
-//     },
-//     revalidate: 0
-//   };
-// }
 
 export default Home;

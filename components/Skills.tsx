@@ -29,7 +29,7 @@ const Skills = (props: Props) => {
 
       <div className="grid grid-cols-5 gap-5 pt-20 xl:pt-20">
         {data.map((skill) => (
-          <div className="group relative flex cursor-pointer ">
+          <div key={skill._id} className="group relative flex cursor-pointer ">
             <motion.img
               initial={{
                 x: 200,

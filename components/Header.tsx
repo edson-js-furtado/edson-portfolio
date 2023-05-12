@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import { useTheme } from "next-themes";

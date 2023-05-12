@@ -1,0 +1,9 @@
+{
+  "/api/hello/route": "/api/hello",
+  "/api/pageInfo/route": "/api/pageInfo",
+  "/api/projects/route": "/api/projects",
+  "/api/socials/route": "/api/socials",
+  "/api/skills/route": "/api/skills",
+  "/api/experiences/route": "/api/experiences",
+  "/page": "/"
+}
